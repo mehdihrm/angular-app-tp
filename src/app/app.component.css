@@ -1,0 +1,23 @@
+.sidenav {
+  height: 100%; /* Full height */
+  width: 250px; /* Sidenav width */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #343a40; /* Dark background */
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+.sidenav a:hover {
+  background-color: #575d63;
+}
+.main-content {
+  margin-left: 260px; /* Same as the width of the sidenav */
+}
